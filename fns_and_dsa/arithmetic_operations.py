@@ -7,5 +7,8 @@ def perform_operation(num1, num2, operation):
     elif operation == 'multiply':
         num1 * num2
     elif operation == 'divide':
-        num1 - num2
+        if num1 == 0 or num2 == 0:
+            print('input a number greater than zero')
+        else:
+            num1 / num2
 
