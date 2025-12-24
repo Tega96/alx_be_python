@@ -5,8 +5,8 @@ Create a simplified Python script that uses conditional statements, Match Case, 
 """
 
 # Prompt for a single task
-task = input("Input a task description: ")
-priority = input("Priority (high/medium/low): ")
+task = input("Enter your task: ")
+priority = input("Priority (high, medium, low): ")
 time_bound = input("Is it time-bound? (yes/no): ")
 
 # Process the task based on priority
